@@ -1,0 +1,16 @@
+@use'../custom'as *;
+@use'../components/mixings' as *;
+
+.menu{
+  @include gradient;
+
+  li{
+    padding: 00.7rem;
+
+    a{
+      color: $white !important;
+      test-transform:capitalize;
+      font-weight:600;
+    }
+  }
+}
